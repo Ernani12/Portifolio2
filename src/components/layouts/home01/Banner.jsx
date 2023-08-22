@@ -53,27 +53,28 @@ class Banner extends Component {
                         
 
                     </div>
-                    <Box component={'main'}   style={{position: 'relative',  // We are now ready to move the element
-    top: '100px',         // 100px from top relative to its old position
-    left: '800px'        // 100px from left
+    <Box component={'main'}   style={{position: 'relative',  // We are now ready to move the element
+    top: '0px',         // 100px from top relative to its old position
+    left: '550px'        // 100px from left
     }}
-        alignItems={'center'}
-           justifyContent={'right'} >
+        alignItems={'left'}
+           justifyContent={'left'} >
          <Box className={classNames(Style.avatar, Style.shadowed)} alt={'image of developer'} style={{background: info.gradient}}  component={'img'} src={me} 
             width={{xs: '25vh', md: '35vh'}}
             height={{xs: '50vh', md: '35vh'}}
               borderRadius={'50%'} p={'0.8rem'} mb={{xs: '1rem', sm: 0}} mr={{xs: 0, md: '3rem'}}/>
          <Box>
-         <span style={{  position: 'absolute',left: '900px',top: '650px'}}>
-          <span style={{background: info.gradient, WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent'}}>{info.firstName}</span><span className={Style.hand}><h1>🤚</h1></span>
+         <span style={{  position: 'relative',left: '300px',top: '0px'}}>
+          <span style={{background: info.gradient, WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent'}}>{info.firstName}</span>
+          <span className={Style.hand}><h1>🤚</h1></span>
             
              </span>
-            <Box component={'ul'} p={'0.8rem'}>
+            <Box component={'ul'} p={'1rem'}>
                {info.miniBio.map((bio, index) => (
                   <EmojiBullet key={index} emoji={bio.emoji} text={bio.text}/>
                ))}
             </Box>
-            <Box display={'flex'} gap={'1.5rem'} justifyContent={'center'} fontSize={{xs: '2rem', md: '2.5rem'}}>
+            <Box display={'flex'} gap={'2rem'} justifyContent={'center'} fontSize={{xs: '3rem', md: '2.5rem'}}>
                {info.socials.map((social, index) => (
                   <SocialIcon key={index} link={social.link} icon={social.icon} label={social.label} />
                ))}
