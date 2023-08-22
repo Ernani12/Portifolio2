@@ -655,7 +655,7 @@ input::-webkit-input-placeholder {
     color: #ff2e59;
 }
 .color-d4 {
-    color: #fbbd41;
+    color: #ffff23;
 }
 .color-d5 {
     color: #8b2ee1;
@@ -679,7 +679,7 @@ input::-webkit-input-placeholder {
     color: #d8dfff;
 }
 .color-d12 {
-    color: #23233f;
+    color: #0edad0;
 }
 .color-d13 {
     color: #979ebb;
@@ -2426,7 +2426,7 @@ body.slide-menu-dark .header #mainnav .menu li a:hover {
     content: "\e903";
     top: 2px;
     left: 0;
-    color: #ff2e59;
+    color: #c0ff2e;
     font-size: 25px;
     position: absolute;
     font-family: 'icomoon';
