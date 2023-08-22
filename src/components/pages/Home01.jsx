@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
-import {Header,Banner, Testimonial, ShapeIcon, About, Specilizing, Portfolio, Education, Footer} from '../layouts/home01/index';
+import {Header,Banner, ShapeIcon, About, Specilizing, Portfolio, Education, Footer} from '../layouts/home01/index';
+import SliderPic, { SliderData } from '../layouts/home01/SliderPic'
+
 
 class Home01 extends Component {
     constructor(props){
@@ -63,7 +65,7 @@ class Home01 extends Component {
                                 <div className="animate-element wow delay5 fadeZooming" data-wow-delay="0.5s">
                                     <h2 className="text-client-love">Projects</h2>
                                 </div>
-                                <Testimonial />
+                                <SliderPic slides={SliderData} />
                             </section>
                         </div>
                         <div className="section slide-personal-Intro-second slide-dark bg-white">
