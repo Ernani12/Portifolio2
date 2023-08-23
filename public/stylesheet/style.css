@@ -63,7 +63,7 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,caption,
     border: 0;
     outline: 0;
     background: rgba(0, 0, 0);
-    
+    /*background TOTAL*/
 }
 
 article,
@@ -795,11 +795,11 @@ input::-webkit-input-placeholder {
 .header-style2.header-shadow,
 .header-style3.header-shadow,
 .header-style4.header-shadow {
-    -webkit-box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.2);
-    -moz-box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.2);
-    -ms-box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.2);
-    -o-box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.2);
-    box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.2);
+    -webkit-box-shadow: 1px 1px 5px 0px rgba(4, 167, 243, 0.922);
+    -moz-box-shadow: 1px 1px 5px 0px rgba(4, 188, 249, 0.967);
+    -ms-box-shadow: 1px 1px 5px 0px rgba(4, 188, 249, 0.967);
+    -o-box-shadow: 1px 1px 5px 0px rgba(4, 188, 249, 0.967);
+    box-shadow: 1px 1px 5px 0px rgba(4, 188, 249, 0.967);
 }
 
 .header-style1.header-shadow .socials-list-hd a, 
@@ -810,7 +810,8 @@ input::-webkit-input-placeholder {
 .header-style3.header-shadow #mainnav .menu li a,
 .header-style4.header-shadow .socials-list-hd a, 
 .header-style4.header-shadow #mainnav .menu li a {
-    color: #23233f;
+    color: #0707e2;
+    /* color from menu SHADOW INACTIVE*/
 }
 
 .header-style4.header-shadow #mainnav .menu > li > a {
@@ -1030,7 +1031,7 @@ input::-webkit-input-placeholder {
     width: 100%;
     height: 100%;
     z-index: 1;
-    background-color: rgba(255,255,255,0.25);
+    background-color: rgba(255, 255, 255, 0.25);
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     -o-transition: all 0.3s;
@@ -1073,7 +1074,7 @@ body.slide-menu-dark .header #mainnav .menu li a {
 }
 
 body.slide-menu-dark .header .hire-me-s1 a {
-    background-color: #23233f;
+    background-color: #0a0aec;
 }
 
 body.slide-menu-dark .header .btn-hv-common .btn-inner:before {
