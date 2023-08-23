@@ -57,7 +57,8 @@ class About extends Component {
                                 <h4 className="sub-title mg-b22">About Me</h4>
                                 <h2 className="title-section mg-b26 color-d12">Hi, I am here to <span className="color-d4">help you.</span></h2>
                                 <p>
-                                    Hi, if you need  PSD template, landing page or Website design within a day? then you can tell me, I'm here to help you. I can design any kind of PSD template. Check my portfolio.
+                                    Hi  if you need Java softwares backend and frontend, maybe  fullstack 
+                                    web Rest API, automation, i could help  you.
                                 </p>
                             </div>
                             <div className="animate-element wow delay5 fadeInUp" data-wow-delay="0.5s">
