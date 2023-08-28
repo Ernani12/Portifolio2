@@ -3,7 +3,6 @@ import {Header,Banner, ShapeIcon, About, Specilizing, Portfolio, Education, Foot
 import SliderPic, { SliderData } from '../layouts/home01/SliderPic'
 
 
-
 class Home01 extends Component {
     constructor(props){
         super(props);

@@ -2,6 +2,13 @@ import React, { Component } from 'react';
 import {Link} from 'react-router-dom';
 import {Design, NumberCount} from './specilizing/index';
 
+import { FaReact } from 'react-icons/fa';
+
+import { FaAngular } from 'react-icons/fa';
+
+import { FaJava } from 'react-icons/fa';
+
+
 class Specilizing extends Component {
     constructor(props){
         super(props);
@@ -11,7 +18,6 @@ class Specilizing extends Component {
                     id: 1,
                     iconbox: 'iconbox-s1 d-sm-flex align-items-center',
                     iconcolor: 'iconbox-icon color1',
-                    spanicon: 'icon-designer',
                     title: 'Java principal stack base',
                     text01: "I'm a professional intern Java with in IBM  2 years of",
                     text02: 'experience.'
@@ -44,6 +50,14 @@ class Specilizing extends Component {
                     <div className="container">
                         <div className="flat-title">
                             <h2 className="title-section color-d12 animate-element wow delay5 fadeInDown" data-wow-delay="0.5s">Knowlegde in</h2>
+                             
+                           
+                            <div>
+                            <FaReact />
+                            <FaAngular/>
+                            <FaJava/>
+                            </div>
+             
                         </div>
                         <div className="row position-relative z-index1">
                             {
