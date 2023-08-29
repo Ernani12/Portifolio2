@@ -1,46 +1,23 @@
 import React, { Component } from 'react';
 import {Link} from 'react-router-dom';
-import {Design, NumberCount} from './specilizing/index';
+import { NumberCount} from './specilizing/index';
 
 import { FaReact } from 'react-icons/fa';
 
 import { FaAngular } from 'react-icons/fa';
 
 import { FaJava } from 'react-icons/fa';
+import Card from 'react-bootstrap/Card';
+
+
+
 
 
 class Specilizing extends Component {
     constructor(props){
         super(props);
         this.state = {
-            design : [
-                {
-                    id: 1,
-                    iconbox: 'iconbox-s1 d-sm-flex align-items-center',
-                    iconcolor: 'iconbox-icon color1',
-                    title: 'Java principal stack base',
-                    text01: "I'm a professional intern Java with in IBM  2 years of",
-                    text02: 'experience.'
-                },
-                {
-                    id: 2,
-                    iconbox: 'iconbox-s1 d-sm-flex justify-content-lg-center align-items-center mgl-iconbox-s1',
-                    iconcolor: 'iconbox-icon color2 color1',
-                    spanicon: 'icon-designer',
-                    title: 'React',
-                    text01: "I'm studing react during  1 year and build projects",
-                    text02: 'at my University '
-                },
-                {
-                    id: 3,
-                    iconbox: 'iconbox-s1 d-sm-flex justify-content-lg-end align-items-center mgr-iconbox-s1',
-                    iconcolor: 'iconbox-icon color3',
-                    spanicon: 'icon-brand',
-                    title: 'Angular ',
-                    text01: "Studing Angular too,  its very useful to work with React",
-                    text02: 'but some cases its necessary use Angular too with Java'
-                },
-            ]
+           
         }
     }
     render() {
@@ -50,21 +27,55 @@ class Specilizing extends Component {
                     <div className="container">
                         <div className="flat-title">
                             <h2 className="title-section color-d12 animate-element wow delay5 fadeInDown" data-wow-delay="0.5s">Knowlegde in</h2>
-                             
-                           
-                            <div>
-                            <FaReact />
-                            <FaAngular/>
-                            <FaJava/>
-                            </div>
-             
+
+                    
+
                         </div>
-                        <div className="row position-relative z-index1">
-                            {
-                                this.state.design.map(data => (
-                                    <Design key={data.id} data={data}/>
-                                ))
-                            }
+
+
+                        
+                        <div className="row position-relative z-index1" >
+                        
+        <Card style={{ width: '60rem' , color:'white', padding:'10px', borderRadius:'30% 10% / 10% 20%', marginBottom:'3rem' }}>
+            <Card.Img variant="top" />
+            <Card.Body style={{ backgroundColor: 'blue'}}>
+                <Card.Title style={{ backgroundColor: 'blue'}}>
+                <FaJava color="18F56B" fontSize="5em"  />
+                    Java</Card.Title>
+                <Card.Text style={{ backgroundColor: 'blue'}}>
+                Some quick example text to build on the card title and make up the
+                bulk of the card's content.
+                </Card.Text>
+            </Card.Body>
+        </Card> 
+
+        <Card style={{ width: '60rem' , left:'60px' ,color:'white', padding:'10px', borderRadius:'30% 10% / 10% 20%', marginBottom:'3rem' }}>
+            <Card.Img variant="top"  />
+            <Card.Body style={{ backgroundColor: 'blue'}}>
+                <Card.Title style={{ backgroundColor: 'blue'}}>
+                <FaReact color="08EEFF" fontSize="5em" animate="spin" />
+                    React</Card.Title>
+                <Card.Text style={{ backgroundColor: 'blue'}}>
+                Some quick example text to build on the card title and make up the
+                bulk of the card's content.
+                </Card.Text>
+            </Card.Body>
+        </Card> 
+
+        <Card style={{ width: '60rem', left:'140px' , color:'white', padding:'10px', borderRadius:'30% 10% / 10% 20%', marginBottom:'3rem' }}>
+            <Card.Img variant="top"  />
+            <Card.Body style={{ backgroundColor: 'blue'}}>
+                <Card.Title style={{ backgroundColor: 'blue'}}>
+                <FaAngular color="F40224" fontSize="5em"  />
+                    Angular</Card.Title>
+                <Card.Text style={{ backgroundColor: 'blue'}}>
+                Some quick example text to build on the card title and make up the
+                bulk of the card's content.
+                </Card.Text>
+            </Card.Body>
+        </Card> 
+
+
                             <div className="flat-spacer" data-desktop="0" data-mobile="0" data-smobile="0"></div>
                             <div className="fact">
                                 <NumberCount />
