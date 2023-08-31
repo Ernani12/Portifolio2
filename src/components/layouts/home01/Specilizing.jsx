@@ -36,20 +36,31 @@ class Specilizing extends Component {
                         
                         <div className="row position-relative z-index1" >
                         
-        <Card style={{ width: '60rem' , color:'white', padding:'10px', borderRadius:'30% 10% / 10% 20%', marginBottom:'3rem' }}>
-            <Card.Img variant="top" />
-            <Card.Body style={{ backgroundColor: 'blue'}}>
+        <Card style={{ width: '60rem', borderSpacing:'0px' , color:'white', borderWidth:'thick', padding:'20px', borderRadius:'30% 10% / 10% 20%', marginBottom:'3rem' }}>
+            
+            <Card.Body style={{ backgroundColor: 'white'}}>
                 <Card.Title style={{ backgroundColor: 'blue'}}>
-                <FaJava color="18F56B" fontSize="5em"  />
+                <FaJava color="18F56B" fontSize="5em"   />
                     Java</Card.Title>
-                <Card.Text style={{ backgroundColor: 'blue'}}>
-                Some quick example text to build on the card title and make up the
-                bulk of the card's content.
+                <Card.Text style={{  backgroundColor: 'blue', fontSize:'20px', textAlign:'justify'}}>
+                •My princibal Stack base its Java. I am learning Java  
+                since 2010-2013 in my technician colege COTUCA(Unicamp) width
+                Java version 8. In this course i ve been studing  CSS, HTML
+                Delphi, JSP, PHP, SQL, C#. Although, my focus was  POO (oriented objeted),
+                in Java , building MVC projects, API, Rest, and others some apps in desktop in Java. 
+                <br></br>
+                •Even in my University (UNIFEI),  I was studing Computer Science 
+                with  new  languages  and frameworks  like Spring, Django, Angular, Hibernate
+                librarys like React  for developing  Rest API, web applications
+                with backend and Frontend too and i still study design patters too
+                like Solid, Factor, Abstract, POO concepts: Overloading, Overriding,  and reusing components.
+                
                 </Card.Text>
             </Card.Body>
         </Card> 
 
-        <Card style={{ width: '60rem' , left:'60px' ,color:'white', padding:'10px', borderRadius:'30% 10% / 10% 20%', marginBottom:'3rem' }}>
+        <Card style={{ width: '60rem', left:'60px' , color:'white', borderWidth:'thick', padding:'20px', borderRadius:'30% 10% / 10% 20%', marginBottom:'3rem' }}>
+
             <Card.Img variant="top"  />
             <Card.Body style={{ backgroundColor: 'blue'}}>
                 <Card.Title style={{ backgroundColor: 'blue'}}>
@@ -62,7 +73,8 @@ class Specilizing extends Component {
             </Card.Body>
         </Card> 
 
-        <Card style={{ width: '60rem', left:'140px' , color:'white', padding:'10px', borderRadius:'30% 10% / 10% 20%', marginBottom:'3rem' }}>
+        <Card style={{ width: '60rem', left:'140px' , color:'white', borderWidth:'thick', padding:'20px', borderRadius:'30% 10% / 10% 20%', marginBottom:'3rem' }}>
+
             <Card.Img variant="top"  />
             <Card.Body style={{ backgroundColor: 'blue'}}>
                 <Card.Title style={{ backgroundColor: 'blue'}}>
