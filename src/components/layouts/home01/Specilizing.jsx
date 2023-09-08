@@ -36,13 +36,13 @@ class Specilizing extends Component {
                         
                         <div className="row position-relative z-index1" >
                         
-        <Card style={{ width: '60rem', borderSpacing:'0px' , color:'white', borderWidth:'thick', padding:'20px', borderRadius:'30% 10% / 10% 20%', marginBottom:'3rem' }}>
+        <Card style={{  width: '70rem', color:'white', borderSpacing:'0px' , borderWidth:'thick', padding:'20px', borderRadius:'30% 10% / 10% 20%', marginBottom:'3rem' }}>
             
-            <Card.Body style={{ backgroundColor: 'white'}}>
-                <Card.Title style={{ backgroundColor: 'blue'}}>
-                <FaJava color="18F56B" fontSize="5em"   />
+            <Card.Body style={{ backgroundColor: 'transparent'}}>
+                <Card.Title style={{ color:'white', backgroundColor: 'black', margin: '0 auto'}}>
+                <FaJava color="green" fontSize="5em"   />
                     Java</Card.Title>
-                <Card.Text style={{  backgroundColor: 'blue', fontSize:'20px', textAlign:'justify'}}>
+                <Card.Text style={{ color:'white',margin: '0 auto', backgroundColor: 'black', fontSize:'20px', textAlign:'justify'}}>
                 •My princibal Stack base its Java. I am learning Java  
                 since 2010-2013 in my technician colege COTUCA(Unicamp) width
                 Java version 8. In this course i ve been studing  CSS, HTML
@@ -59,33 +59,54 @@ class Specilizing extends Component {
             </Card.Body>
         </Card> 
 
-        <Card style={{ width: '60rem', left:'60px' , color:'white', borderWidth:'thick', padding:'20px', borderRadius:'30% 10% / 10% 20%', marginBottom:'3rem' }}>
-
-            <Card.Img variant="top"  />
-            <Card.Body style={{ backgroundColor: 'blue'}}>
-                <Card.Title style={{ backgroundColor: 'blue'}}>
-                <FaReact color="08EEFF" fontSize="5em" animate="spin" />
-                    React</Card.Title>
-                <Card.Text style={{ backgroundColor: 'blue'}}>
-                Some quick example text to build on the card title and make up the
-                bulk of the card's content.
+        <Card style={{ left:'60px',  width: '70rem', color:'white', borderSpacing:'0px' , borderWidth:'thick', padding:'20px', borderRadius:'30% 10% / 10% 20%', marginBottom:'3rem' }}>
+            
+            <Card.Body style={{ backgroundColor: 'transparent'}}>
+                <Card.Title style={{ color:'white',backgroundColor: 'black', margin: '0 auto'}}>
+                <FaReact color="blue" fontSize="5em" animate="spin" />    
+                React</Card.Title>
+                <Card.Text style={{ margin: '0 auto', backgroundColor: 'black', fontSize:'20px', textAlign:'justify'}}>
+                •My princibal Stack base its Java. I am learning Java  
+                since 2010-2013 in my technician colege COTUCA(Unicamp) width
+                Java version 8. In this course i ve been studing  CSS, HTML
+                Delphi, JSP, PHP, SQL, C#. Although, my focus was  POO (oriented objeted),
+                in Java , building MVC projects, API, Rest, and others some apps in desktop in Java. 
+                <br></br>
+                •Even in my University (UNIFEI),  I was studing Computer Science 
+                with  new  languages  and frameworks  like Spring, Django, Angular, Hibernate
+                librarys like React  for developing  Rest API, web applications
+                with backend and Frontend too and i still study design patters too
+                like Solid, Factor, Abstract, POO concepts: Overloading, Overriding,  and reusing components.
+                
                 </Card.Text>
             </Card.Body>
         </Card> 
 
-        <Card style={{ width: '60rem', left:'140px' , color:'white', borderWidth:'thick', padding:'20px', borderRadius:'30% 10% / 10% 20%', marginBottom:'3rem' }}>
-
-            <Card.Img variant="top"  />
-            <Card.Body style={{ backgroundColor: 'blue'}}>
-                <Card.Title style={{ backgroundColor: 'blue'}}>
-                <FaAngular color="F40224" fontSize="5em"  />
-                    Angular</Card.Title>
-                <Card.Text style={{ backgroundColor: 'blue'}}>
-                Some quick example text to build on the card title and make up the
-                bulk of the card's content.
+        <Card style={{ left:'140px',  width: '70rem', color:'white', borderSpacing:'0px' , borderWidth:'thick', padding:'20px', borderRadius:'30% 10% / 10% 20%', marginBottom:'3rem' }}>
+            
+            <Card.Body style={{ backgroundColor: 'transparent'}}>
+                <Card.Title style={{ backgroundColor: 'black', margin: '0 auto'}}>
+                <FaAngular color="red" fontSize="5em"  />    
+    
+                Angular</Card.Title>
+                <Card.Text style={{ color:'white',margin: '0 auto', backgroundColor: 'black', fontSize:'20px', textAlign:'justify'}}>
+                •My princibal Stack base its Java. I am learning Java  
+                since 2010-2013 in my technician colege COTUCA(Unicamp) width
+                Java version 8. In this course i ve been studing  CSS, HTML
+                Delphi, JSP, PHP, SQL, C#. Although, my focus was  POO (oriented objeted),
+                in Java , building MVC projects, API, Rest, and others some apps in desktop in Java. 
+                <br></br>
+                •Even in my University (UNIFEI),  I was studing Computer Science 
+                with  new  languages  and frameworks  like Spring, Django, Angular, Hibernate
+                librarys like React  for developing  Rest API, web applications
+                with backend and Frontend too and i still study design patters too
+                like Solid, Factor, Abstract, POO concepts: Overloading, Overriding,  and reusing components.
+                
                 </Card.Text>
             </Card.Body>
         </Card> 
+
+       
 
 
                             <div className="flat-spacer" data-desktop="0" data-mobile="0" data-smobile="0"></div>

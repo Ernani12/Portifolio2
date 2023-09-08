@@ -9,24 +9,36 @@ class EducationRight extends Component {
                 {
                     id: 1,
                     timeline: 'timeline-inverted color1',
-                    info: 'Universite of Udacity',
-                    title: 'User Experience Design',
-                    text: 'User experience (UX) design is the process design teams use to create products. '
+                    info: 'Universidade Federal de Itajuba',
+                    title: 'Computer Science',
+                    text: 'Focus on Java POO, JavaScript, Android, Python, React, Angular, C/C++, SQL, NOSQL, Spring, Django, Design Patters, Marven, CSS, Html'
                 },
+              
                 {
                     id: 2,
                     timeline: 'timeline-inverted color2',
-                    info: 'Udemy',
-                    title: 'Interaction Design',
-                    text: 'User experience (UX) design is the process design teams use to create products. '
+                    info: 'Computer (Cotuca Unicamp)',
+                    title: 'Computer Science',
+                    text: 'Focus on Java POO, JavaScript, Android, Python, React, Angular, C/C++, SQL, NOSQL, Spring, Django, Design Patters, Marven, CSS, Html'
                 },
+
+
                 {
                     id: 3,
                     timeline: 'timeline-inverted color3',
-                    info: 'Skill Share',
-                    title: 'Interaction Design',
-                    text: 'User experience (UX) design is the process design teams use to create products. '
-                }
+                    info: 'Udemy Courses',
+                    title: 'Spring Boot, Clean Code, MVC',
+                    text: 'Studing more Spring Boot in particular with React or Angular'
+                },
+
+                {
+                    id: 4,
+                    timeline: 'timeline-inverted color3',
+                    info: 'Udemy Courses',
+                    title: 'Spring Boot, Clean Code, MVC',
+                    text: 'Studing more Spring Boot in particular with React or Angular'
+                },
+             
             ]
         }
     }

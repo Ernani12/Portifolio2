@@ -1390,13 +1390,10 @@ body.slide-menu-dark .header #mainnav .menu li a:hover {
 .testimonial.s1 .text-client-love {
     font-size: 244.96px;
     line-height: 244.96px;
-    color: #2eff6d;
+    color: #f7fe18;
     text-align: center;
     font-family: 'Archivo Black', sans-serif;
-    opacity: 0.1;
     filter: alpha(opacity=0.1);
-    -moz-opacity: 0.1;
-    -khtml-opacity: 0.1;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0.1)";
 }
 .testimonial-t1 .avatar img {
@@ -1942,7 +1939,7 @@ body.slide-menu-dark .header #mainnav .menu li a:hover {
     border-radius: 50%;
 }
 .timeline > li.color1 > .timeline-badge {
-    background-color: #ff2e59;
+    background-color: #ff0000;
 }
 .timeline > li.color2 > .timeline-badge {
     background-color: #fbbd41;
