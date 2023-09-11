@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import links from '../links';
 import menus from '../menus';
 
 
@@ -23,19 +22,7 @@ class Header extends Component {
                             <div className="nav-wrap">
                                 <nav id="mainnav" className="mainnav">
                                     <ul className="menu ace-responsive-menu" data-menu-style="horizontal">
-                                        <li><Link to="/" className="active">Home</Link>
-                                            <ul className="sub-menu" >
-                                                {
-                                                    links.map(data => (
-                                                        <li key={data.id}>
-                                                            <Link to={data.tolink} onClick={() => {window.location.href=data.tolink}} className={data.id === 1 ? "active" : ""}>
-                                                                {data.namelink}
-                                                            </Link>
-                                                        </li>
-                                                    ))
-                                                }
-                                            </ul>
-                                        </li>   
+                                      
                                         {
                                             menus.map(menu => (
                                                 <li key={menu.id}><Link to={menu.tomenu} className="click-model">{menu.namemenu}</Link></li>
