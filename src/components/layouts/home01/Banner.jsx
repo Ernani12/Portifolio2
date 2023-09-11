@@ -69,12 +69,12 @@ class Banner extends Component {
           <span className={Style.hand}><h1>🤚</h1></span>
             
              </span>
-            <Box component={'ul'} p={'1rem'}>
+            <Box component={'ul'} p={'1rem'} color={'white'}>
                {info.miniBio.map((bio, index) => (
                   <EmojiBullet key={index} emoji={bio.emoji} text={bio.text}/>
                ))}
             </Box>
-            <Box display={'flex'} gap={'2rem'} justifyContent={'center'} fontSize={{xs: '3rem', md: '2.5rem'}}>
+            <Box display={'flex'} gap={'3rem'} justifyContent={'center'} fontSize={{xs: '3rem', md: '2.5rem'}}>
                {info.socials.map((social, index) => (
                   <SocialIcon key={index} link={social.link} icon={social.icon} label={social.label} />
                ))}
