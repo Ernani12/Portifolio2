@@ -1,8 +1,8 @@
 const links = [
     {
         id: 1,
-        tolink: '/',
-        namelink: 'Home 01'
+        tomenu: "#home",
+        namemenu: "Home"
     }
 ];
 

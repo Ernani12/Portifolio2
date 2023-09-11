@@ -1,26 +1,33 @@
 const menus = [
+   
     {
         id: 1,
+        tomenu: "#home",
+        namemenu: "Home"
+    },
+   
+    {
+        id: 2,
         tomenu: "#about",
         namemenu: "About"
     },
     {
-        id: 2,
+        id: 3,
         tomenu: "#services",
-        namemenu: "services"
+        namemenu: "Services"
     },
     {
-        id: 3,
+        id: 4,
         tomenu: "#portfolio",
         namemenu: "Portfolio"
     },
     {
-        id: 4,
+        id: 5,
         tomenu: "#testimonial",
-        namemenu: "Testimonial"
+        namemenu: "Projects"
     },
     {
-        id: 5,
+        id: 6,
         tomenu: "#resume",
         namemenu: "Resume"
     },
