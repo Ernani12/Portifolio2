@@ -57,8 +57,19 @@ class About extends Component {
                                 <h4 className="sub-title mg-b22">About Me</h4>
                                 <h2 className="title-section mg-b26 color-d12">Hi, I am here to <span className="color-d4">help you.</span></h2>
                                 <p>
+                                    <b>I am a technician and bachelor in Cumputer Science, 
+                                    starting my study in Java, POO, intarfaces, Rest, API,
+                                    JSP, JFS, css, html since 2013. Java is scalable, 
+                                    organized and can be adapted because to the JVM.
+                                    Today 20st century with spring boot and others frameworks,  its easily
+                                    susceptible to changes, using many frontends or libs like React, Angular, Bootstrap,
+                                    such as the adoption of different cloud databases,
+                                    tests, additional functions such as stream, collections, Lambda expressions and its is adaptable because  the JVM.
+  
+                                    <br></br>
+                                    
                                     Hi  if you need Java softwares backend and frontend, maybe  fullstack 
-                                    web Rest API, automation, i could help  you.
+                                    web Rest API, automation, i could help  you.</b>
                                 </p>
                             </div>
                             <div className="animate-element wow delay5 fadeInUp" data-wow-delay="0.5s">

@@ -13,9 +13,9 @@ class Footer extends Component {
                         </div>
                         <div className="col-lg-12">
                             <div className="widget-info">
-                            <p className="address">Sydney, Austrlia</p>
-                            <p className="mail">hello@dolio.com</p>
-                            <p className="phone">+91 254 787 878</p>
+                            <p className="address">Campinas, Brasil</p>
+                            <p className="mail">ernanisan_hv.metals@hotmail.com</p>
+                            <p className="phone">+55 19 984206416</p>
                             </div>
                         </div>
                         <div className="col-lg-12">
@@ -31,7 +31,7 @@ class Footer extends Component {
                     <div id="bottom" className="bottom-s1">
                     <div className="container d-lg-flex justify-content-between">
                         <div className="copyright lt-sp02">
-                        © Roy Design, 2020 All rights reserved.
+                        © Ernani developer, 2023 All rights reserved.
                         </div>
                         <div className="socials-list color-s1">
                         <Link to="#"><i className="fa fa-facebook" aria-hidden="true" /></Link>
