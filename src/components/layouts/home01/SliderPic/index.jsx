@@ -4,7 +4,7 @@ import './index.scss';
 import img1 from './img/1.jpg';
 import img2 from './img/2.jpg';
 import img3 from './img/3.jpg';
-
+import img4 from './img/4.png';
 
 
 export const SliderData = [
@@ -25,8 +25,8 @@ export const SliderData = [
     },
     {
       image:
-        'https://images.unsplash.com/photo-1475189778702-5ec9941484ae?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1351&q=80',
-        link:'2'  
+      img4,
+        link:'https://github.com/Ernani12/flow_free_game-in-C-Run_codes-Minimize-Chars'  
       },
     {
       image:
@@ -67,12 +67,18 @@ const SliderPic = ({ slides }) => {
               <img src={slide.image} alt='' className='image' />
               </span>
             )}
-            
+            <br></br>
+            <br></br>
             {index === current && (
               
-              <span style={{ position:'relative', color:'red'}}>
-              <center><div><b><a href={slide.link}>{slide.link}</a></b></div></center>
-              </span>
+              
+             <center><b>
+
+              <a href={slide.link}>{slide.link}
+              </a>
+              </b>
+              </center> 
+             
             )}
           
             
