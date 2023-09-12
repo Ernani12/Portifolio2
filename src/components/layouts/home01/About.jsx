@@ -56,7 +56,7 @@ class About extends Component {
                             <div className="animate-element wow delay5 fadeInDown" data-wow-delay="0.5s">
                                 <h4 className="sub-title mg-b22">About Me</h4>
                                 <h2 className="title-section mg-b26 color-d12">Hi, I am here to <span className="color-d4">help you.</span></h2>
-                               <span style={{ color:'white', textAlign:"justify"}}> <p>
+                               <span  style={{color:'white', fontFamily:'Poynter', textAlign:'justify', fontSize:'20px', fontWeight:'bold'}}> <p>
                                     <b>I am a technician and bachelor in Cumputer Science, 
                                     starting my study in Java, POO, intarfaces, Rest, API,
                                     JSP, JFS, css, html since 2013. Java is scalable, 

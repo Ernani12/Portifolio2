@@ -64,7 +64,7 @@ const SliderPic = ({ slides }) => {
           >
             {index === current && (
               <span style={{ position:'relative'}}>
-              <img src={slide.image} alt='travel image' className='image' />
+              <img src={slide.image} alt='' className='image' />
               </span>
             )}
             

@@ -42,7 +42,7 @@ class Specilizing extends Component {
                 <Card.Title style={{ color:'white', backgroundColor: 'black', margin: '0 auto'}}>
                 <FaJava color="green" fontSize="5em"   />
                     Java</Card.Title>
-                <Card.Text style={{ color:'white',margin: '0 auto', padding:'2px', backgroundColor: 'black', fontSize:'20px', textAlign:'justify'}}>
+                <Card.Text  style={{color:'white', fontFamily:'Poynter', textAlign:'justify', fontSize:'20px', fontWeight:'bold'}}>
                <b> •My princibal Stack base its Java. I am learning Java  
                 since 2010-2013 in my technician colege COTUCA(Unicamp) width
                 Java version 8. In this course i ve been studing  CSS, HTML
@@ -58,8 +58,7 @@ class Specilizing extends Component {
                 </Card.Text>
             </Card.Body>
         </Card> 
-
-        <Card style={{ left:'60px',  width: '70rem', color:'white', borderSpacing:'0px' , borderWidth:'thick', padding:'20px', borderRadius:'30% 10% / 10% 20%', marginBottom:'3rem' }}>
+        <Card style={{ left:'60px', fontFamily:'Poynter', fontSize:'20px', fontWeight:'bold',textAlign:'justify',  width: '70rem', color:'white', borderSpacing:'0px' , borderWidth:'thick', padding:'20px', borderRadius:'30% 10% / 10% 20%', marginBottom:'3rem' }}>
             
             <Card.Body style={{ backgroundColor: 'transparent'}}>
                 <Card.Title style={{ color:'white',backgroundColor: 'black', margin: '0 auto'}}>
@@ -82,7 +81,7 @@ class Specilizing extends Component {
             </Card.Body>
         </Card> 
 
-        <Card style={{ left:'140px',  width: '70rem', color:'white', borderSpacing:'0px' , borderWidth:'thick', padding:'20px', borderRadius:'30% 10% / 10% 20%', marginBottom:'3rem' }}>
+        <Card style={{ left:'140px', fontFamily:'Poynter', fontSize:'20px', fontWeight:'bold',textAlign:'justify',  width: '70rem', color:'white', borderSpacing:'0px' , borderWidth:'thick', padding:'20px', borderRadius:'30% 10% / 10% 20%', marginBottom:'3rem' }}>
             
             <Card.Body style={{ backgroundColor: 'transparent'}}>
                 <Card.Title style={{ backgroundColor: 'black', margin: '0 auto'}}>
@@ -90,7 +89,7 @@ class Specilizing extends Component {
     
                 Angular</Card.Title>
                 <Card.Text style={{ padding:'2px', color:'white',margin: '0 auto', backgroundColor: 'black', fontSize:'20px', textAlign:'justify'}}>
-                <b>•My princibal Stack base its Java. I am learning Java  
+                <b>•My principal Stack base its Java. I am learning Java  
                 since 2010-2013 in my technician colege COTUCA(Unicamp) width
                 Java version 8. In this course i ve been studing  CSS, HTML
                 Delphi, JSP, PHP, SQL, C#. Although, my focus was  POO (oriented objeted),

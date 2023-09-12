@@ -59,9 +59,11 @@ class EducationRight extends Component {
                                     <div className="timeline-panel">
                                         <h3 className="f-info">{data.info}</h3>
                                         <div className="s-info">{data.title}</div>
+                                       <span style={{color:'white', fontFamily:'Poynter', textAlign:'justify', fontSize:'20px', fontWeight:'bold'}}>
                                         <p>
                                             {data.text}
                                         </p>
+                                        </span>
                                     </div>
                                 </li>
                             ))
