@@ -110,7 +110,7 @@ class Specilizing extends Component {
 
                             <div className="flat-spacer" data-desktop="0" data-mobile="0" data-smobile="0"></div>
                             <div className="fact">
-                                <NumberCount />
+                                
                                 <div className="btn-contact bg-s1 text-center">
                                     <h4 className="title color-d12">Get a project? Let’s talk.</h4>
                                     <Link to="#" className="email color-s1 color-d14">ernanisan@outlook.com</Link>

@@ -20,9 +20,10 @@ class ContainerLeft extends Component {
                         </p>
                         <p className="lt-sp01">
                         <b>Why Java? 
-                       <br></br> •Organized
+                       <br></br>•Organized
                        <br></br>•Easily to install
                        <br></br>•Maintenance
+                       <br></br>•Scalable
                        </b>
                         </p> </span>
                     </div>

@@ -7,17 +7,17 @@ class ContainerRight extends Component {
             slider: [
                 {
                     id: 1,
-                    image: './images/section/10.jpg',
+                    image: './images/section/SpecSpring.png',
                     alt: 'images'
                 },
                 {
                     id: 2,
-                    image: './images/section/10.jpg',
+                    image: './images/section/SpecMarven.png',
                     alt: 'images'
                 },
                 {
                     id: 3,
-                    image: './images/section/10.jpg',
+                    image: './images/section/SpecDocker.png',
                     alt: 'images'
                 }
             ]
