@@ -38,7 +38,7 @@ class About extends Component {
                     name: 'Skype',
                     normal: 'Connect with me'
                 }
-            ]
+            ]   
         }
     }
     render() {
