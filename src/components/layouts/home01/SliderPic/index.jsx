@@ -4,29 +4,34 @@ import './index.scss';
 import img1 from './img/1.jpg';
 import img2 from './img/2.jpg';
 import img3 from './img/3.jpg';
-
+import img4 from './img/4.png';
 
 
 export const SliderData = [
     {
       image:
-        img1
+        img1,
+      link:'https://github.com/Ernani12/Biblioteca'  
     },
     {
       image:
-        img2
+        img2,
+        link:'https://github.com/Ernani12/Biblioteca'   
     },
     {
       image:
-        img3
+        img3,
+        link:'https://github.com/Ernani12/Biblioteca'   
     },
     {
       image:
-        'https://images.unsplash.com/photo-1475189778702-5ec9941484ae?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1351&q=80'
-    },
+      img4,
+        link:'https://github.com/Ernani12/flow_free_game-in-C-Run_codes-Minimize-Chars'  
+      },
     {
       image:
-        'https://images.unsplash.com/photo-1503177119275-0aa32b3a9368?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1350&q=80'
+        'https://images.unsplash.com/photo-1503177119275-0aa32b3a9368?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1350&q=80',
+        link:'3'  
     }
   ];
 
@@ -58,9 +63,31 @@ const SliderPic = ({ slides }) => {
             key={index}
           >
             {index === current && (
-              <img src={slide.image} alt='travel image' className='image' />
+              <span style={{ position:'relative'}}>
+              <img src={slide.image} alt='' className='image' />
+              </span>
             )}
+            <br></br>
+            <br></br>
+            {index === current && (
+              
+              
+             <center><b>
+
+              <a href={slide.link}>{slide.link}
+              </a>
+              </b>
+              </center> 
+             
+            )}
+          
+            
+
           </div>
+           
+            
+          
+          
         );
       })}
     </section>
