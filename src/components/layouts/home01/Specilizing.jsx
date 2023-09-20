@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import {Link} from 'react-router-dom';
-import { NumberCount} from './specilizing/index';
 
 import { FaReact } from 'react-icons/fa';
 
@@ -36,71 +35,71 @@ class Specilizing extends Component {
                         
                         <div className="row position-relative z-index1" >
                         
-        <Card style={{  width: '75rem', color:'white', borderSpacing:'0px' , borderWidth:'thick', padding:'20px', borderRadius:'30% 10% / 10% 20%', marginBottom:'3rem' }}>
+        <Card style={{ fontFamily:"Times New Roman", width: '75rem', color:'white', borderSpacing:'0px' , borderWidth:'thick', padding:'20px', borderRadius:'30% 10% / 10% 20%', marginBottom:'3rem' }}>
             
             <Card.Body style={{ backgroundColor: 'transparent'}}>
-                <Card.Title style={{ color:'white', backgroundColor: 'black', margin: '0 auto'}}>
+                <Card.Title style={{ color:'black', backgroundColor: 'white', margin: '0 auto'}}>
                 <FaJava color="green" fontSize="5em"   />
                     Java</Card.Title>
-                <Card.Text  style={{color:'white', fontFamily:'Poynter', textAlign:'justify', fontSize:'20px', fontWeight:'bold'}}>
-               <b> •My princibal Stack base its Java. I am learning Java  
+                <Card.Text  style={{color:'black', backgroundColor:'white', textAlign:'justify', fontSize:'16px', fontWeight:'bold'}}>
+                • My princibal Stack base its Java. I am learning Java  
                 since 2010-2013 in my technician colege COTUCA(Unicamp) width
                 Java version 8. In this course i ve been studing  CSS, HTML
                 Delphi, JSP, PHP, SQL, C#. Although, my focus was  POO (oriented objeted),
                 in Java , building MVC projects, API, Rest, and others some apps in desktop in Java. 
                 <br></br>
-                •Even in my University (UNIFEI),  I was studing Computer Science 
+                • Even in my University (UNIFEI),  I was studing Computer Science 
                 with  new  languages  and frameworks  like Spring, Django, Angular, Hibernate
                 librarys like React  for developing  Rest API, web applications
                 with backend and Frontend too and i still study design patters too
                 like Solid, Factor, Abstract, POO concepts: Overloading, Overriding,  and reusing components.
-                </b>
+              
                 </Card.Text>
             </Card.Body>
         </Card> 
-        <Card style={{ left:'60px', fontFamily:'Poynter', fontSize:'20px', fontWeight:'bold',textAlign:'justify',  width: '70rem', color:'white', borderSpacing:'0px' , borderWidth:'thick', padding:'20px', borderRadius:'30% 10% / 10% 20%', marginBottom:'3rem' }}>
+        <Card style={{ fontFamily:"Times New Roman",left:'60px', fontSize:'16px', fontWeight:'bold',textAlign:'justify',  width: '70rem', color:'white', borderSpacing:'0px' , borderWidth:'thick', padding:'20px', borderRadius:'30% 10% / 10% 20%', marginBottom:'3rem' }}>
             
             <Card.Body style={{ backgroundColor: 'transparent'}}>
-                <Card.Title style={{ color:'white',backgroundColor: 'black', margin: '0 auto'}}>
+                <Card.Title style={{ color:'black',backgroundColor: 'white', margin: '0 auto'}}>
                 <FaReact color="blue" fontSize="5em" animate="spin" />    
                 React</Card.Title>
-                <Card.Text style={{padding:'2px', margin: '0 auto', backgroundColor: 'black', fontSize:'20px', textAlign:'justify'}}>
-                <b>•My princibal Stack base its Java. I am learning Java  
+                <Card.Text style={{color:'black', backgroundColor:'white', padding:'2px', margin: '0 auto', fontSize:'16px', textAlign:'justify'}}>
+                • My princibal Stack base its Java. I am learning Java  
                 since 2010-2013 in my technician colege COTUCA(Unicamp) width
                 Java version 8. In this course i ve been studing  CSS, HTML
                 Delphi, JSP, PHP, SQL, C#. Although, my focus was  POO (oriented objeted),
                 in Java , building MVC projects, API, Rest, and others some apps in desktop in Java. 
                 <br></br>
-                •Even in my University (UNIFEI),  I was studing Computer Science 
+                • Even in my University (UNIFEI),  I was studing Computer Science 
                 with  new  languages  and frameworks  like Spring, Django, Angular, Hibernate
                 librarys like React  for developing  Rest API, web applications
                 with backend and Frontend too and i still study design patters too
                 like Solid, Factor, Abstract, POO concepts: Overloading, Overriding,  and reusing components.
-                </b>
+                
                 </Card.Text>
             </Card.Body>
         </Card> 
 
-        <Card style={{ left:'140px', fontFamily:'Poynter', fontSize:'20px', fontWeight:'bold',textAlign:'justify',  width: '70rem', color:'white', borderSpacing:'0px' , borderWidth:'thick', padding:'20px', borderRadius:'30% 10% / 10% 20%', marginBottom:'3rem' }}>
+        <Card style={{  fontFamily:"Times New Roman", left:'140px', fontSize:'16px', fontWeight:'bold',textAlign:'justify',  width: '70rem', color:'white', borderSpacing:'0px' , borderWidth:'thick', padding:'10px', borderRadius:'30% 10% / 10% 20%', marginBottom:'3rem' }}>
             
             <Card.Body style={{ backgroundColor: 'transparent'}}>
-                <Card.Title style={{ backgroundColor: 'black', margin: '0 auto'}}>
+                <Card.Title style={{ color:'black',backgroundColor: 'white', margin: '0 auto'}}>
                 <FaAngular color="red" fontSize="5em"  />    
     
                 Angular</Card.Title>
-                <Card.Text style={{ padding:'2px', color:'white',margin: '0 auto', backgroundColor: 'black', fontSize:'20px', textAlign:'justify'}}>
-                <b>•My principal Stack base its Java. I am learning Java  
+                <Card.Text style={{color:'black', backgroundColor:'white', padding:'0px',margin: '0 auto', fontSize:'16px', textAlign:'justify'}}>
+                • My principal Stack base its Java. I am learning Java  
                 since 2010-2013 in my technician colege COTUCA(Unicamp) width
                 Java version 8. In this course i ve been studing  CSS, HTML
                 Delphi, JSP, PHP, SQL, C#. Although, my focus was  POO (oriented objeted),
                 in Java , building MVC projects, API, Rest, and others some apps in desktop in Java. 
                 <br></br>
-                •Even in my University (UNIFEI),  I was studing Computer Science 
+                • Even in my University (UNIFEI),  I was studing Computer Science 
                 with  new  languages  and frameworks  like Spring, Django, Angular, Hibernate
                 librarys like React  for developing  Rest API, web applications
                 with backend and Frontend too and i still study design patters too
                 like Solid, Factor, Abstract, POO concepts: Overloading, Overriding,  and reusing components.
-                </b>
+               
                 </Card.Text>
             </Card.Body>
         </Card> 
