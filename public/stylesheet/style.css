@@ -1251,7 +1251,7 @@ body.slide-menu-dark .header #mainnav .menu li a:hover {
     background-color: #ffe1fd;
 }
 .banner-section.two-home .content-text .fl-btn.color-s2 a {
-    background-color: #1d2239;
+    background-color: #8e9de0;
 }
 .banner-section.two-home .featured-post {
     top: 0;
@@ -1525,17 +1525,18 @@ body.slide-menu-dark .header #mainnav .menu li a:hover {
     padding-left: 23px;
 }
 .profile.s1 .background-white {
-    background-color: #fbf7ff;
+    background-color: rgb(255,255,255);
     padding: 40px 15px 0px 25px;
     border-radius: 42px;
-    -webkit-box-shadow: 0 0 30px 0 rgba(16, 32, 57, 0.05);
-    -moz-box-shadow: 0 0 30px 0 rgba(16, 32, 57, 0.05);
-    box-shadow: 0 0 30px 0 rgba(16, 32, 57, 0.05);
+    -webkit-box-shadow: 0 0 30px 0 rgba(255,255,255, 0.9);
+    -moz-box-shadow: 0 0 30px 0 rgba(255,255,255, 0.9);
+    box-shadow: 0 0 30px 0 rgba(255,255,255, 0.9);
     margin-top: -470px;
 }
 .profile.s1 .fl-btn a {
     padding: 10px 39px 12px 38px;
-    border: 1px solid #ffffff00;
+    border: 1px solid #dffc2300;
+    background-color: white;
 }
 .profile.s1 .fl-btn a:hover {
     border: 1px solid #fbbd41;
@@ -2416,7 +2417,7 @@ body.slide-menu-dark .header #mainnav .menu li a:hover {
 }
 .about-me.t2 .flat-title .email {
     font-size: 24px;
-    color: #23233f;
+    color: #efeff5;
     padding-left: 35px;
     font-family: 'Archivo Black', sans-serif;
 }
