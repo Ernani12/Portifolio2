@@ -43,15 +43,15 @@ class About extends Component {
     }
     render() {
         return (
-            <div className="background-white">
-                <div className="d-lg-flex">
+            <div className="background-white" >
+                <div className="d-lg-flex" tyle={{backgroundColor:'white'}} >
                     <div className="col-left" style={{backgroundColor:'white'}}>
                         <div className="featured-post animate-element wow delay5 fadeInUp" data-wow-delay="0.5s" >
                             <img src="images/section/03.png" alt="images"/>
                         </div>
                     </div>
-                    <div className="col-right" style={{backgroundColor:'white', border:'0px'}} >
-                        <div className="flat-spacer" data-desktop="105" data-mobile="50" data-smobile="50"  style={{backgroundColor:'white'}}></div>
+                    <div className="col-right" style={{backgroundColor:'white'}} >
+                        
                         <div className="flat-title t1"  style={{backgroundColor:'white'}}>
                             <div className="animate-element wow delay5 fadeInDown" data-wow-delay="0.5s" style={{backgroundColor:'white'}}>
                                 <h4 className="sub-title mg-b22" style={{backgroundColor:'white'}}>About Me</h4>
@@ -73,7 +73,7 @@ class About extends Component {
                                     web Rest API, automation, i could help  you.
                                 </p> </span>
                             </div>
-                            <div className="animate-element wow delay5 fadeInUp" data-wow-delay="0.5s">
+                            <div className="animate-element wow delay5 fadeInUp" data-wow-delay="0.5s" style={{backgroundColor:'white', width:'135px'}}>
                                 <div className="fl-btn btn-general" style={{backgroundColor:'white'}}>
                                     <Link to="#" className="f-w500 color-1 lt-sp07">Hire Me</Link>
                                 </div>
