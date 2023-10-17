@@ -11,7 +11,7 @@ class EducationRight extends Component {
                     timeline: 'timeline-inverted color1',
                     info: 'Universidade Federal de Itajuba',
                     title: 'Computer Science',
-                    text: 'Focus on Java POO, JavaScript, Android, Python, React, Angular, C/C++, SQL, NOSQL, Spring, Django, Design Patters, Marven, CSS, Html'
+                    text: 'Atividades: Na universidade mantive foco em Java, porem foram desenvolvidos projetos de web, API, REST, dados estruturados ou não, IA, padrões, POO e metodologias ágeis, com as linguagens: C/C++, Java, Python, Javascript, Typescript, além de frameworks, e biblioteca: Angular, React, Node, Android, V Code, PostgreSql, SQL, Mongo e Firebase(NOSQL), ORM, UML, Hibernate, Bootstrap.'
                 },
               
                 {
@@ -19,25 +19,19 @@ class EducationRight extends Component {
                     timeline: 'timeline-inverted color2',
                     info: 'Computer (Cotuca Unicamp)',
                     title: 'Computer Science',
-                    text: 'Focus on Java POO, JavaScript, Android, Python, React, Angular, C/C++, SQL, NOSQL, Spring, Django, Design Patters, Marven, CSS, Html'
+                    text: 'Atividades e grupos: No colégio técnico foi desenvolvido aplicações com as linguagens Java, PHP, Delphi, SQL, HTML,CSS, Javascript, C# para aplicações web, Servelets, Rest, locais, interfaces, ciclos de software, testes de bugs, repositórios. Ainda, foram desenvolvidos conceitos de programação POO, UML e gerência de projeto, tools como Eclipse, NetBeans, Visual Basic'
                 },
 
 
                 {
                     id: 3,
                     timeline: 'timeline-inverted color3',
-                    info: 'Udemy Courses',
-                    title: 'Spring Boot, Clean Code, MVC',
-                    text: 'Studing more Spring Boot in particular with React or Angular'
+                    info: 'Courses: Udemy, DevMidia , Dicionario do Programador, CodeAcademy, Alura, RockSeat',
+                    title: 'Spring Boot, Clean Code, MVC, Kubernets, Docker',
+                    text: 'Studing more Spring Boot in particular with React or Angular, with new tecnologies.'
                 },
 
-                {
-                    id: 4,
-                    timeline: 'timeline-inverted color3',
-                    info: 'Udemy Courses',
-                    title: 'Spring Boot, Clean Code, MVC',
-                    text: 'Studing more Spring Boot in particular with React or Angular'
-                },
+              
              
             ]
         }
@@ -59,7 +53,7 @@ class EducationRight extends Component {
                                     <div className="timeline-panel">
                                         <h3 className="f-info">{data.info}</h3>
                                         <div className="s-info">{data.title}</div>
-                                       <span style={{color:'white', fontFamily:'Poynter', textAlign:'justify', fontSize:'20px', fontWeight:'bold'}}>
+                                       <span style={{color:'white', fontFamily:'Poynter' , lineHeight:'25px', letterSpacing:'0.2px', textAlign:'justify', fontSize:'18px', fontWeight:'bold'}}>
                                         <p>
                                             {data.text}
                                         </p>
