@@ -14,12 +14,12 @@ const menus = [
     {
         id: 3,
         tomenu: "#services",
-        namemenu: "Services"
+        namemenu: "Knowlegde"
     },
     {
         id: 4,
         tomenu: "#portfolio",
-        namemenu: "Portfolio"
+        namemenu: "Why Java? "
     },
     {
         id: 5,
