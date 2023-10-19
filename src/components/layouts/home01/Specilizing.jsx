@@ -64,17 +64,14 @@ class Specilizing extends Component {
                 <FaReact color="blue" fontSize="5em" animate="spin" />    
                 React</Card.Title>
                 <Card.Text style={{color:'black', backgroundColor:'white', padding:'2px', margin: '0 auto', fontSize:'16px', textAlign:'justify'}}>
-                • My princibal Stack base its Java. I am learning Java  
-                since 2010-2013 in my technician colege COTUCA(Unicamp) width
-                Java version 8. In this course i ve been studing  CSS, HTML
-                Delphi, JSP, PHP, SQL, C#. Although, my focus was  POO (oriented objeted),
-                in Java , building MVC projects, API, Rest, and others some apps in desktop in Java. 
+                • React its used when you have more animations and user interactions on the same layer.
+                React was created by Facebook, which was also a library for JavaScript structuring page components and handling the various event interactions and user states, 
+                with greater flexibility. From this perspective, React maintains a copy of the DOM elements and can make changes only to the necessary parts, instead of having to reload
+                the entire structure of a page (FEDOSEJEV, 2015).
                 <br></br>
-                • Even in my University (UNIFEI),  I was studing Computer Science 
-                with  new  languages  and frameworks  like Spring, Django, Angular, Hibernate
-                librarys like React  for developing  Rest API, web applications
-                with backend and Frontend too and i still study design patters too
-                like Solid, Factor, Abstract, POO concepts: Overloading, Overriding,  and reusing components.
+                • It is library is very easy to use associated with css, html and bootstrap and complement each other. At university, I used this library to make statistics graphs, 
+                reactive components, animated card containers, especially if you want to use API.
+
                 
                 </Card.Text>
             </Card.Body>
