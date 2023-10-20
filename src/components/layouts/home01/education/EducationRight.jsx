@@ -11,7 +11,8 @@ class EducationRight extends Component {
                     timeline: 'timeline-inverted color1',
                     info: 'Universidade Federal de Itajuba',
                     title: 'Computer Science',
-                    text: 'Atividades: Na universidade mantive foco em Java, porem foram desenvolvidos projetos de web, API, REST, dados estruturados ou não, IA, padrões, POO e metodologias ágeis, com as linguagens: C/C++, Java, Python, Javascript, Typescript, além de frameworks, e biblioteca: Angular, React, Node, Android, V Code, PostgreSql, SQL, Mongo e Firebase(NOSQL), ORM, UML, Hibernate, Bootstrap.'
+                    text: 'Activities: At my University I focused on Java, but web projects, API, REST, structured or unstructured data, AI, standards, OOP and agile methodologies were developed, with the languages: C/C++, Java, Python, Javascript, Typescript, in addition to frameworks and libraries: Angular, React, Node, Android, V Code, PostgreSql, SQL, Mongo and Firebase (NOSQL), ORM, UML, Hibernate, Bootstrap.'
+                    
                 },
               
                 {
@@ -19,7 +20,7 @@ class EducationRight extends Component {
                     timeline: 'timeline-inverted color2',
                     info: 'Computer (Cotuca Unicamp)',
                     title: 'Computer Science',
-                    text: 'Atividades e grupos: No colégio técnico foi desenvolvido aplicações com as linguagens Java, PHP, Delphi, SQL, HTML,CSS, Javascript, C# para aplicações web, Servelets, Rest, locais, interfaces, ciclos de software, testes de bugs, repositórios. Ainda, foram desenvolvidos conceitos de programação POO, UML e gerência de projeto, tools como Eclipse, NetBeans, Visual Basic'
+                    text: 'Activities and groups: At the technical college, applications were developed using the languages ​​Java, PHP, Delphi, SQL, HTML, CSS, Javascript, C# for web applications, Servelets, Rest, locations, interfaces, software cycles, bug testing, repositories. Furthermore, concepts of OOP programming, UML and project management were developed, tools such as Eclipse, NetBeans, Visual Basic'
                 },
 
 

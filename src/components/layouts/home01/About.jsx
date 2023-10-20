@@ -9,26 +9,26 @@ class About extends Component {
                 {
                     id: 1,
                     classname: 'profile-link border-corner2 d-flex align-items-center',
-                    images: './images/section/05.png',
+                    images: './images/section/codigoFonte.jpg',
                     alt: 'images',
-                    name: 'Dribbble',
-                    normal: 'Follow Me'
+                    name: 'Dicionario do Programador',
+                    normal: 'Codigo Fonte'
                 },
                 {
                     id: 2,
                     classname: 'profile-link border-corner2 d-flex align-items-center',
-                    images: './images/section/06.png',
+                    images: './images/section/stack.png',
                     alt: 'images',
-                    name: 'Behance',
-                    normal: 'See My Design'
+                    name: 'StackOverflow',
+                    normal: 'Bugs'
                 },
                 {
                     id: 3,
                     classname: 'profile-link border-corner2 d-flex align-items-center',
-                    images: './images/section/07.png',
+                    images: './images/section/geek.png',
                     alt: 'images',
-                    name: 'Uplabs',
-                    normal: 'Download Here'
+                    name: 'GeekForGeeks',
+                    normal: 'Examples'
                 },
                 {
                     id: 4,
