@@ -85,17 +85,14 @@ class Specilizing extends Component {
     
                 Angular</Card.Title>
                 <Card.Text style={{color:'black', backgroundColor:'white', padding:'0px',margin: '0 auto', fontSize:'16px', textAlign:'justify'}}>
-                • My principal Stack base its Java. I am learning Java  
-                since 2010-2013 in my technician colege COTUCA(Unicamp) width
-                Java version 8. In this course i ve been studing  CSS, HTML
-                Delphi, JSP, PHP, SQL, C#. Although, my focus was  POO (oriented objeted),
-                in Java , building MVC projects, API, Rest, and others some apps in desktop in Java. 
+                • Angular is common when you want to reuse several components and take advantage of layer styling on a single page, 
+                a little different from React's Virtual DOM. This way it only loads what is necessary, 
+                provides a fast loading of information and an organized MVC model.
+                (GREEN, Brad; SESHADRI, Shyam. AngularJS. " O'Reilly Media, Inc.", 2013).
                 <br></br>
-                • Even in my University (UNIFEI),  I was studing Computer Science 
-                with  new  languages  and frameworks  like Spring, Django, Angular, Hibernate
-                librarys like React  for developing  Rest API, web applications
-                with backend and Frontend too and i still study design patters too
-                like Solid, Factor, Abstract, POO concepts: Overloading, Overriding,  and reusing components.
+                • Even in my University (UNIFEI),  I used
+                to make simples pages to load data like  A hospital,  Supermarket prototipes
+                using routers, databind, services ect.
                
                 </Card.Text>
             </Card.Body>
