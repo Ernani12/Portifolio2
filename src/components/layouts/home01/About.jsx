@@ -11,8 +11,8 @@ class About extends Component {
                     classname: 'profile-link border-corner2 d-flex align-items-center',
                     images: './images/section/codigoFonte.jpg',
                     alt: 'images',
-                    name: 'Dicionario do Programador',
-                    normal: 'Codigo Fonte'
+                    name: 'CodigoFonteTV',
+                    normal: 'Dicionario do Programador'
                 },
                 {
                     id: 2,
@@ -87,7 +87,7 @@ class About extends Component {
                         
                     </div>
                 </div>
-                <div className="profile-list"  >
+                <div className="profile-list" style={{alignContent:"center"}} >
                     <div className="flat-carousel-box data-effect clearfix"   data-gap="30" data-column="4" data-column2="3" data-column3="2" data-column4="1" data-column5="1" data-dots="false" data-auto="false" data-nav="false" data-loop="true">
                         <div className="owl-carousel"   >
                             {
@@ -97,8 +97,8 @@ class About extends Component {
                                             <img src={data.images} alt={data.alt}/>
                                         </div>
                                         <div className="content-inside" style={{backgroundColor:'white'}}>
-                                            <h3 className="name"  backgroundColor="white"  ><Link to="#" >{data.name}</Link></h3>
-                                            <span className="t-normal"  >{data.normal}</span>
+                                            <h3 className="name"  ><Link to="#" >{data.name}</Link></h3>
+                                            
                                         </div>
                                     </div>    
                                 ))

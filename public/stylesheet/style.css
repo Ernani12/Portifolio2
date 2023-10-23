@@ -1543,8 +1543,8 @@ body.slide-menu-dark .header #mainnav .menu li a:hover {
     border-radius: 36px;
 }
 .profile-list {
-    margin: -20px -15px 0 -25px;
-    
+     
+    display: block;
 }
 .profile.s1 p {
     margin-bottom: 63px;
