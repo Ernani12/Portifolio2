@@ -33,10 +33,19 @@ class About extends Component {
                 {
                     id: 4,
                     classname: 'profile-link border-corner2 d-flex align-items-center',
-                    images: './images/section/08.png',
+                    images: './images/section/a.jpg',
                     alt: 'images',
-                    name: 'Skype',
-                    normal: 'Connect with me'
+                    name: 'Alura',
+                    normal: 'Courses'
+                },
+
+                {
+                    id: 5,
+                    classname: 'profile-link border-corner2 d-flex align-items-center',
+                    images: './images/section/udemi.png',
+                    alt: 'images',
+                    name: 'Udemy',
+                    normal: 'Courses'
                 }
             ]   
         }
@@ -73,21 +82,18 @@ class About extends Component {
                                     web Rest API, automation, i could help  you.
                                 </p> </span>
                             </div>
-                            <div className="animate-element wow delay5 fadeInUp" data-wow-delay="0.5s" style={{backgroundColor:'white', width:'135px'}}>
-                                <div className="fl-btn btn-general" style={{backgroundColor:'white'}}>
-                                    <Link to="#" className="f-w500 color-1 lt-sp07">Hire Me</Link>
-                                </div>
-                            </div>
+                          
                         </div>
+                        
                     </div>
                 </div>
-                <div className="profile-list">
-                    <div className="flat-carousel-box data-effect clearfix" data-gap="30" data-column="4" data-column2="3" data-column3="2" data-column4="1" data-column5="1" data-dots="false" data-auto="false" data-nav="false" data-loop="true">
-                        <div className="owl-carousel">
+                <div className="profile-list" >
+                    <div className="flat-carousel-box data-effect clearfix"  data-gap="30" data-column="4" data-column2="3" data-column3="2" data-column4="1" data-column5="1" data-dots="false" data-auto="false" data-nav="false" data-loop="true">
+                        <div className="owl-carousel" >
                             {
                                 this.state.profile.map(data => (
                                     <div className={data.classname} key={data.id}>
-                                        <div className="featured-post">
+                                        <div className="featured-post" >
                                             <img src={data.images} alt={data.alt}/>
                                         </div>
                                         <div className="content-inside">
@@ -99,10 +105,25 @@ class About extends Component {
                             }                                                          
                         </div>
                     </div>
+                    
                 </div>
+                
+            
+                <div className="animate-element wow delay5 fadeInUp" data-wow-delay="0.5s" >
+<div className="fl-btn btn-general btn-hv-border" style={{backgroundColor:'white'}} >
+    <Link to="#" style={{backgroundColor:'orange', color:'blue'}} >Hire Me</Link>
+</div>
+</div>        
+
             </div>
+            
+            
         );
+
+        
     }
+    
 }
+  
 
 export default About;
