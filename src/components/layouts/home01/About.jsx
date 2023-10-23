@@ -53,7 +53,7 @@ class About extends Component {
     render() {
         return (
             <div className="background-white" >
-                <div className="d-lg-flex" tyle={{backgroundColor:'white'}} >
+                <div className="d-lg-flex" style={{backgroundColor:'white'}} >
                     <div className="col-left" style={{backgroundColor:'white'}}>
                         <div className="featured-post animate-element wow delay5 fadeInUp" data-wow-delay="0.5s" >
                             <img src="images/section/03.png" alt="images"/>
@@ -88,17 +88,17 @@ class About extends Component {
                     </div>
                 </div>
                 <div className="profile-list" >
-                    <div className="flat-carousel-box data-effect clearfix"  data-gap="30" data-column="4" data-column2="3" data-column3="2" data-column4="1" data-column5="1" data-dots="false" data-auto="false" data-nav="false" data-loop="true">
-                        <div className="owl-carousel" >
+                    <div className="flat-carousel-box data-effect clearfix"   data-gap="30" data-column="4" data-column2="3" data-column3="2" data-column4="1" data-column5="1" data-dots="false" data-auto="false" data-nav="false" data-loop="true">
+                        <div className="owl-carousel" style={{backgroundColor:'white'}} >
                             {
                                 this.state.profile.map(data => (
-                                    <div className={data.classname} key={data.id}>
+                                    <div className={data.classname} key={data.id} >
                                         <div className="featured-post" >
                                             <img src={data.images} alt={data.alt}/>
                                         </div>
-                                        <div className="content-inside">
+                                        <div className="content-inside" style={{backgroundColor:'white',  borderColor:'black' ,border:'2px'}}>
                                             <h3 className="name"><Link to="#">{data.name}</Link></h3>
-                                            <span className="t-normal">{data.normal}</span>
+                                            <span className="t-normal" background='white' >{data.normal}</span>
                                         </div>
                                     </div>    
                                 ))
@@ -109,17 +109,16 @@ class About extends Component {
                 </div>
                 
             
-                <div className="animate-element wow delay5 fadeInUp" data-wow-delay="0.5s" >
-<div className="fl-btn btn-general btn-hv-border" style={{backgroundColor:'white'}} >
-    <Link to="#" style={{backgroundColor:'orange', color:'blue'}} >Hire Me</Link>
-</div>
-</div>        
-
+              
+                <div class="fl-btn btn-general btn-hv-border" style={{backgroundColor:'white'}}>
+                <a class="f-w500 text-one color-1 lt-sp1 border-corner2" style={{backgroundColor:'#fbbd41'}} href="/">Hire Me</a>
+    </div>
             </div>
             
+          
             
         );
-
+    
         
     }
     
