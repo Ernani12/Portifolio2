@@ -1557,14 +1557,17 @@ body.slide-menu-dark .header #mainnav .menu li a:hover {
 }
 .profile-link .content-inside {
     padding-left: 30px;
+    
 }
 .profile-link .content-inside .name a {
     font-size: 20px;
     font-weight: 700;
+    background-color: white;
 }
 .profile-link .content-inside .t-normal {
     font-size: 16px;
     font-weight: 600;
+    background-color: white;
 }
 
 /* specilizing-in

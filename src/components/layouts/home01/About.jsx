@@ -16,7 +16,7 @@ class About extends Component {
                 },
                 {
                     id: 2,
-                    classname: 'profile-link border-corner2 d-flex align-items-center',
+                    classname: 'profile-link border-corner2 d-flex align-items-center ',
                     images: './images/section/stack.png',
                     alt: 'images',
                     name: 'StackOverflow',
@@ -36,7 +36,7 @@ class About extends Component {
                     images: './images/section/a.jpg',
                     alt: 'images',
                     name: 'Alura',
-                    normal: 'Courses'
+                    normal: 'Examples'
                 },
 
                 {
@@ -87,18 +87,18 @@ class About extends Component {
                         
                     </div>
                 </div>
-                <div className="profile-list" >
+                <div className="profile-list"  >
                     <div className="flat-carousel-box data-effect clearfix"   data-gap="30" data-column="4" data-column2="3" data-column3="2" data-column4="1" data-column5="1" data-dots="false" data-auto="false" data-nav="false" data-loop="true">
-                        <div className="owl-carousel" style={{backgroundColor:'white'}} >
+                        <div className="owl-carousel"   >
                             {
                                 this.state.profile.map(data => (
-                                    <div className={data.classname} key={data.id} >
-                                        <div className="featured-post" >
+                                    <div   className={data.classname} key={data.id} >
+                                        <div className="featured-post"  >
                                             <img src={data.images} alt={data.alt}/>
                                         </div>
-                                        <div className="content-inside" style={{backgroundColor:'white',  borderColor:'black' ,border:'2px'}}>
-                                            <h3 className="name"><Link to="#">{data.name}</Link></h3>
-                                            <span className="t-normal" background='white' >{data.normal}</span>
+                                        <div className="content-inside" style={{backgroundColor:'white'}}>
+                                            <h3 className="name"  backgroundColor="white"  ><Link to="#" >{data.name}</Link></h3>
+                                            <span className="t-normal"  >{data.normal}</span>
                                         </div>
                                     </div>    
                                 ))
