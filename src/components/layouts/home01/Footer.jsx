@@ -9,13 +9,13 @@ class Footer extends Component {
                     <div className="container">
                         <div className="row d-lg-flex align-items-center text-center">
                         <div className="col-lg-12">
-                            <h3 className="widget-title larger lt-sp06">Stay Connected</h3>
+                            <h3 className="widget-title larger lt-sp06" style={{color:'yellow'}}>Stay Connected</h3>
                         </div>
                         <div className="col-lg-12">
                             <div className="widget-info">
-                            <p className="address">Campinas, Brasil</p>
-                            <p className="mail">ernanisan_hv.metals@hotmail.com</p>
-                            <p className="phone">+55 19 984206416</p>
+                            <p className="address"style={{color:'white'}}>Campinas, Brasil</p>
+                            <p className="mail" style={{color:'white'}}>ernanisan_hv.metals@hotmail.com</p>
+                            <p className="phone"style={{color:'white'}}>+55 19 984206416</p>
                             </div>
                         </div>
                         <div className="col-lg-12">
@@ -29,8 +29,8 @@ class Footer extends Component {
                     </div>
                     </div>
                     <div id="bottom" className="bottom-s1">
-                    <div className="container d-lg-flex justify-content-between">
-                        <div className="copyright lt-sp02">
+                    <div className="container d-lg-flex justify-content-between" >
+                        <div className="copyright lt-sp02" style={{color:'yellow'}}>
                         © Ernani developer, 2023 All rights reserved.
                         </div>
                         <div className="socials-list color-s1">
