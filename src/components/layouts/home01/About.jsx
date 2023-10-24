@@ -109,7 +109,7 @@ class About extends Component {
               
                 <div class="fl-btn btn-general btn-hv-border" style={{backgroundColor:'white'}}>
                 <a class="f-w500 text-one color-1 lt-sp1 border-corner2" style={{backgroundColor:'#fbbd41'}} href="mailto:ernanisan_hv.metals@hotmail.com">Hire Me</a>
-    </div>
+                </div>
             </div>
             
           
