@@ -1543,7 +1543,8 @@ body.slide-menu-dark .header #mainnav .menu li a:hover {
     border-radius: 36px;
 }
 .profile-list {
-    margin: -20px -15px 0 -25px;
+     
+    display: block;
 }
 .profile.s1 p {
     margin-bottom: 63px;
@@ -1556,14 +1557,17 @@ body.slide-menu-dark .header #mainnav .menu li a:hover {
 }
 .profile-link .content-inside {
     padding-left: 30px;
+    
 }
 .profile-link .content-inside .name a {
     font-size: 20px;
     font-weight: 700;
+    background-color: white;
 }
 .profile-link .content-inside .t-normal {
     font-size: 16px;
     font-weight: 600;
+    background-color: white;
 }
 
 /* specilizing-in

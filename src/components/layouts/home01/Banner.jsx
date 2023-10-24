@@ -9,6 +9,7 @@ import EmojiBullet from "./InitialPic/EmojiBullet";
 import SocialIcon from "./InitialPic/SocialIcon";
 import {Box} from "@mui/material";
 import {info} from "./InitialPic/info/Info";
+import ExamplePdf from './Curriculo3.pdf';
 
 
 
@@ -28,12 +29,18 @@ class Banner extends Component {
                                 </h1>
                                 <p className="lt-sp03 mg-b60 text-white">
                                 I am Java Junior Developer with React or Angular <br /> 
-                                </p>        
-                                <div className="animate-element wow delay5 fadeInUp" data-wow-delay="0.5s">
+                                </p>    
+                                
+                                    
                                     <div className="fl-btn btn-general btn-hv-border">
-                                        <Link to="#" className="border-corner5 f-w500 lt-sp095 text-white ">Download Resume</Link>
+                                        <Link  to={ExamplePdf} className="f-w500 text-one color-1 lt-sp1 border-corner2"
+        download="ResumeErnani"
+        target="_blank"
+        rel="noreferrer"
+      >
+        Download Resume    </Link>
                                     </div>
-                            </div>   
+                              
                             <Box component={'main'}   style={{position: 'relative',  // We are now ready to move the element
                                     top: '-250px',         // 100px from top relative to its old position
                                     left: '700px'        // 100px from left
