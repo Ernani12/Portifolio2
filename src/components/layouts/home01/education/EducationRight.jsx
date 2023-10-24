@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import {Link} from 'react-router-dom'
+import ExamplePdf from '../Curriculo3.pdf';
+
 
 class EducationRight extends Component {
     constructor(props){
@@ -65,9 +67,16 @@ class EducationRight extends Component {
                         }
                         
                     </ul>
+                    
                     <div className="fl-btn btn-general btn-hv-border">
-                        <Link to="#" className="f-w500 lt-sp1 border-corner2 text-one">Download Resume</Link>
+                                        <Link  to={ExamplePdf} className="f-w500 text-one color-1 lt-sp1 border-corner2"
+                                            download="ResumeErnani"
+                                            target="_blank"
+                                            rel="noreferrer"
+                                        >
+                                            Download Resume    </Link>
                     </div>
+
                 </div>
             </div>
         );
