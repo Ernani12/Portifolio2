@@ -64,17 +64,14 @@ class About extends Component {
                         <div className="flat-title t1"  style={{backgroundColor:'white'}}>
                             <div className="animate-element wow delay5 fadeInDown" data-wow-delay="0.5s" style={{backgroundColor:'white'}}>
                                 <h4 className="sub-title mg-b22" style={{backgroundColor:'white'}}>About Me</h4>
-                                <h2 className="title-section mg-b26 color-d12" style={{backgroundColor:'white'}}>Hi, I am here to <span className="color-d4" style={{backgroundColor:'white'}} >help you.</span></h2>
+                                <h2 className="title-section mg-b26 color-d12" style={{backgroundColor:'white',fontSize:'25px'}}>Hi, I am here to <span className="color-d4" style={{backgroundColor:'white'}} >help you.</span></h2>
                                <span   style={{fontFamily:"Times New Roman",color:'black', backgroundColor:'white', textAlign:'justify', fontSize:'18px', fontWeight:'bold'}}> 
                                <p style={{backgroundColor:'white'}}>
-                                    I am a technician and bachelor in Cumputer Science, 
-                                    starting my study in Java, POO, intarfaces, Rest, API,
-                                    JSP, JFS, css, html since 2013. Java is scalable, 
-                                    organized and can be adapted because to the JVM.
-                                    Today 20st century with spring boot and others frameworks,  its easily
-                                    susceptible to changes, using many frontends or libs like React, Angular, Bootstrap,
-                                    such as the adoption of different cloud databases,
-                                    tests, additional functions such as stream, collections, Lambda expressions and its is adaptable because  the JVM.
+                               Professional JR graduated in Computer Science from Unifei and passionate about technology, programming, logic, software development and applications, he likes the area and his main base is Java, and can also use React or Angular (developing)
+                               I studied at the COTUCA technical college on the Internet IT course where I gained knowledge in:
+                               Java, Delphi, PHP, SQL and tools for web services. (htmls, css, JavaScript, JSP), in which I did an internship at MOTOROLA (Lenovo).
+                               Current degree in Computer Science Bachelor - Federal University of Itajubá, dealing with technologies and languages ​​such as: Java, Python, React, Angular (JavaScript and Type), PHP, SQL, Spring, Mongo, Firebase, Django, REST API, C/ C++, PostgreeSQL, MySQL, Node, Github, Jira, similar for software development,
+                               with IBM/KYNDRYL internship.
   
                                     <br></br>
                                     
@@ -111,7 +108,7 @@ class About extends Component {
             
               
                 <div class="fl-btn btn-general btn-hv-border" style={{backgroundColor:'white'}}>
-                <a class="f-w500 text-one color-1 lt-sp1 border-corner2" style={{backgroundColor:'#fbbd41'}} href="/">Hire Me</a>
+                <a class="f-w500 text-one color-1 lt-sp1 border-corner2" style={{backgroundColor:'#fbbd41'}} href="mailto:ernanisan_hv.metals@hotmail.com">Hire Me</a>
     </div>
             </div>
             
