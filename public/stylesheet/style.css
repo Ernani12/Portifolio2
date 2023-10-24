@@ -1159,7 +1159,7 @@ body.slide-menu-dark .header #mainnav .menu li a:hover {
 .banner-section.s1 .content-text .fl-btn a {
     padding: 20px 35px 18px 35px;
     background: rgb(251,189,65);
-    background: linear-gradient(-135deg, rgba(163,69,251,1) 0%, rgba(251,189,65,1) 100%);
+    background: linear-gradient(254deg, rgba(251,189,65,1) 0%, rgba(255,255,255,1) 100%);
 }
 .banner-section.s2 {
     background-color: #fbbd41;
@@ -1534,9 +1534,9 @@ body.slide-menu-dark .header #mainnav .menu li a:hover {
     margin-top: -470px;
 }
 .profile.s1 .fl-btn a {
-    padding: 10px 25px 12px 38px;
-    border: 1px solid #dffc2300;
-    background-color: white;
+    padding: 20px 35px 18px 35px;
+   
+    background: linear-gradient(254deg, rgba(251,189,65,1) 0%, rgba(255,255,255,1) 100%);
 }
 .profile.s1 .fl-btn a:hover {
     border: 1px solid #fbbd41;

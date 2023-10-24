@@ -30,15 +30,16 @@ class Banner extends Component {
                                 <p className="lt-sp03 mg-b60 text-white">
                                 I am Java Junior Developer with React or Angular <br /> 
                                 </p>    
-                                
                                     
+                        
+
                                     <div className="fl-btn btn-general btn-hv-border">
                                         <Link  to={ExamplePdf} className="f-w500 text-one color-1 lt-sp1 border-corner2"
-        download="ResumeErnani"
-        target="_blank"
-        rel="noreferrer"
-      >
-        Download Resume    </Link>
+                                            download="ResumeErnani"
+                                            target="_blank"
+                                            rel="noreferrer"
+                                        >
+                                            Download Resume    </Link>
                                     </div>
                               
                             <Box component={'main'}   style={{position: 'relative',  // We are now ready to move the element
